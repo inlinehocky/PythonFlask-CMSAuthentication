@@ -1,6 +1,6 @@
 FROM python:3.7-alpine
 
-WORKDIR /src/app/
+WORKDIR C:\Users\Steve\source\repos\PythonFlask-CMSAuthentication/
 
 COPY ./requirements.txt .
 
