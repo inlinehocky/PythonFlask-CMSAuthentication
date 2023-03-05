@@ -141,7 +141,7 @@ def get_methods_keyword(code, route):
         str(node.target) == 'methods')
     methods_keyword_exists = methods_keyword is not None
     assert methods_keyword_exists, \
-        'Does the `{}` route have a keyword argument of `methods`?'.format(name)
+        'Does the `{}` route have a keyword argument of `methods`?'.format(route.name)
     return methods_keyword
 
 def get_request_method(code, route, parent=True):
